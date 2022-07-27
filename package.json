@@ -24,6 +24,7 @@
     "test:coverage": "jest --coverage tests src/components --coverageThreshold='{\"global\":{\"statements\":\"90\", \"functions\":\"90\", \"branches\":\"90\", \"lines\":\"90\"}}'"
   },
   "dependencies": {
+    "abbreviatrix": "^1.0.5",
     "next": "^12.2.3",
     "next-pwa": "^5.5.4",
     "old-norse-alphabet": "^1.2.2",
@@ -32,7 +33,8 @@
     "reset-css": "^5.0.1",
     "sass": "^1.54.0",
     "slugify": "^1.6.5",
-    "viking-language-dictionary": "^0.10.0"
+    "viking-language-dictionary": "^0.10.0",
+    "viking-language-dictionary-abbreviations": "^0.9.0"
   },
   "devDependencies": {
     "@types/jest": "^28.1.6",
