@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "abbreviatrix": "^1.0.5",
+    "markari": "^1.0.5",
     "next": "^12.2.3",
     "next-pwa": "^5.5.4",
     "old-norse-alphabet": "^1.2.2",
