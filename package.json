@@ -33,6 +33,7 @@
     "react-dom": "^18.2.0",
     "reset-css": "^5.0.1",
     "sass": "^1.54.0",
+    "sitemap": "^7.1.1",
     "slugify": "^1.6.5",
     "viking-language-dictionary": "^0.10.0",
     "viking-language-dictionary-abbreviations": "^0.9.0"
