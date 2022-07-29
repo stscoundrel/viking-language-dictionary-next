@@ -1,4 +1,6 @@
-import { getWordLink, getLetterLink, getCanonicalUrl, getMainUrl } from 'lib/utils/links'
+import {
+  getWordLink, getLetterLink, getCanonicalUrl, getMainUrl,
+} from 'lib/utils/links'
 
 describe('Link utils', () => {
   process.env.NEXT_PUBLIC_SITE_URL = 'https://viking-language-dictionary.test'
