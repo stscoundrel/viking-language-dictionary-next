@@ -37,7 +37,7 @@ describe('Dictionary tests', () => {
     const þWords = getByLetter('þ')
 
     expect(aWords.length).toBe(104)
-    expect(þWords.length).toBe(121)
+    expect(þWords.length).toBe(125)
 
     aWords.forEach((entry) => {
       expect(entry.headword.charAt(0).toLowerCase()).toBe('a')

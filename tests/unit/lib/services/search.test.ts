@@ -22,7 +22,7 @@ describe('Search tests', () => {
     const result = searchDictionary('alfaðir', dictionary)
 
     const expected = {
-      headword: 'Al(l)fǫðr ',
+      headword: 'Al(l)fǫðr',
       definition: '(also Alfaðir and Alfǫðr) <-s> m ‘All-father,’ father of all, Odin',
       isCommon: false,
       slug: 'al(l)fdr',
