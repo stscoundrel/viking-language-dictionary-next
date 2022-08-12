@@ -35,6 +35,7 @@
     "sass": "^1.54.3",
     "sitemap": "^7.1.1",
     "slugify": "^1.6.5",
+    "teljari": "^1.1.1",
     "viking-language-dictionary": "^0.10.1",
     "viking-language-dictionary-abbreviations": "^0.9.0"
   },
