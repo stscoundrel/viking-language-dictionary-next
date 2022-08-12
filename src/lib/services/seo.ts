@@ -27,7 +27,7 @@ export const getSeo = (
       const firstWords = content.slice(0, 4).map((word) => word.headword.toLowerCase())
       return {
         title: `Viking Language - Common words starting with letter ${firstWords[0].charAt(0).toUpperCase()}`,
-        description: `Meanings of common Old Norse words starting with "${firstWords[0].charAt(0).toUpperCase()}", such as ${joinWithConj(firstWords)}`,
+        description: `Meanings of common Old Norse words starting with letter "${firstWords[0].charAt(0).toUpperCase()}", such as ${joinWithConj(firstWords)}`,
       }
     }
   }

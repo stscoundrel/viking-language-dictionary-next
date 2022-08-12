@@ -62,7 +62,7 @@ describe('SEO / meta tags tests', () => {
   test('Handles "letter" seo fields', () => {
     const expected = {
       title: 'Viking Language - Common words starting with letter Þ',
-      description: 'Meanings of common Old Norse words starting with "Þ", such as þess, þessi, þetta and þér',
+      description: 'Meanings of common Old Norse words starting with letter "Þ", such as þess, þessi, þetta and þér',
     }
 
     const result = getSeo(words, ContentType.Letter)
