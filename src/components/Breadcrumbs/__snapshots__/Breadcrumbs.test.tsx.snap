@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumbs component Default page: matches snapshot 1`] = `
+<nav
+  className="section"
+>
+  <div
+    className="container"
+  >
+    <a
+      className="link"
+      href="/"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      Viking Language Dictionary
+    </a>
+    <script
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "{\\"@context\\":\\"https://schema.org/\\",\\"@type\\":\\"BreadcrumbList\\",\\"itemListElement\\":[{\\"@type\\":\\"ListItem\\",\\"position\\":1,\\"name\\":\\"Viking Language Dictionary\\",\\"item\\":\\"undefined/\\"}]}",
+        }
+      }
+      type="application/ld+json"
+    />
+  </div>
+</nav>
+`;
+
+exports[`Breadcrumbs component Letter page: matches snapshot 1`] = `
+<nav
+  className="section"
+>
+  <div
+    className="container"
+  >
+    <a
+      className="link"
+      href="/"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      Viking Language Dictionary
+    </a>
+    <a
+      className="link"
+      href="/letter/th"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      Letter Þ
+    </a>
+    <script
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "{\\"@context\\":\\"https://schema.org/\\",\\"@type\\":\\"BreadcrumbList\\",\\"itemListElement\\":[{\\"@type\\":\\"ListItem\\",\\"position\\":1,\\"name\\":\\"Viking Language Dictionary\\",\\"item\\":\\"undefined/\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":2,\\"name\\":\\"Letter Þ\\",\\"item\\":\\"undefined/letter/th\\"}]}",
+        }
+      }
+      type="application/ld+json"
+    />
+  </div>
+</nav>
+`;
+
+exports[`Breadcrumbs component Word page: matches snapshot 1`] = `
+<nav
+  className="section"
+>
+  <div
+    className="container"
+  >
+    <a
+      className="link"
+      href="/"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      Viking Language Dictionary
+    </a>
+    <a
+      className="link"
+      href="/letter/th"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      Letter Þ
+    </a>
+    <a
+      className="link"
+      href="/word/thess"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      Þess
+    </a>
+    <script
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "{\\"@context\\":\\"https://schema.org/\\",\\"@type\\":\\"BreadcrumbList\\",\\"itemListElement\\":[{\\"@type\\":\\"ListItem\\",\\"position\\":1,\\"name\\":\\"Viking Language Dictionary\\",\\"item\\":\\"undefined/\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":2,\\"name\\":\\"Letter Þ\\",\\"item\\":\\"undefined/letter/th\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":3,\\"name\\":\\"Þess\\",\\"item\\":\\"undefined/word/thess\\"}]}",
+        }
+      }
+      type="application/ld+json"
+    />
+  </div>
+</nav>
+`;
