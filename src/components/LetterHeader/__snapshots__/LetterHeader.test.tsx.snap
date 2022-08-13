@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LetterHeader component Matches snapshot 1`] = `
+<header
+  className="section"
+>
+  <h1
+    className="title"
+  >
+    Letter 
+    S
+  </h1>
+  <small
+    className="subHeading"
+  >
+    Viking Language Dictionary - Letter 
+    S
+  </small>
+  <p>
+    Old Norse words starting with letter 
+    S
+    . Click individual words to see definition.
+  </p>
+  <small
+    className="count"
+  >
+    Total of 
+    60
+     words
+  </small>
+</header>
+`;
