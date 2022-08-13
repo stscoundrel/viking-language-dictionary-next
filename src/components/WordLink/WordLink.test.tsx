@@ -3,8 +3,10 @@ import renderer from 'react-test-renderer'
 import WordLink from './index'
 
 const word = {
-  word: 'af-burðr',
-  slug: 'af-burdr',
+  headword: 'Þiðrandi',
+  definition: 'm Thidrandi (personal name)',
+  isCommon: false,
+  slug: 'thidrandi',
 }
 
 describe('WordLink component', () => {
@@ -23,6 +25,6 @@ describe('WordLink component', () => {
     const tree = renderer.create(<WordLink data={word} />)
     const { root } = tree
 
-    expect(root.findByType('a').children).toEqual([word.word])
+    expect(root.findByType('a').children).toEqual(['þiðrandi'])
   })
 })

@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WordList component Matches snapshot 1`] = `
+<ul
+  className="list"
+>
+  <li>
+    <a
+      className="link"
+      href="/word/thess"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      þess
+    </a>
+  </li>
+  <li>
+    <a
+      className="link"
+      href="/word/thessi"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      þessi
+    </a>
+  </li>
+  <li>
+    <a
+      className="link"
+      href="/word/thetta"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      þetta
+    </a>
+  </li>
+  <li>
+    <a
+      className="link"
+      href="/word/ther"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      þér
+    </a>
+  </li>
+  <li>
+    <a
+      className="link"
+      href="/word/thidrandi"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      þiðrandi
+    </a>
+  </li>
+  <li>
+    <a
+      className="link"
+      href="/word/thiggja"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      þiggja
+    </a>
+  </li>
+  <li>
+    <a
+      className="link"
+      href="/word/thinglogi"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      þinglogi
+    </a>
+  </li>
+</ul>
+`;

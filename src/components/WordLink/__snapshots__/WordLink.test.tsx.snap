@@ -3,11 +3,11 @@
 exports[`WordLink component Matches snapshot 1`] = `
 <a
   className="link"
-  href="/word/af-burdr"
+  href="/word/thidrandi"
   onClick={[Function]}
   onMouseEnter={[Function]}
   onTouchStart={[Function]}
 >
-  af-burðr
+  þiðrandi
 </a>
 `;
