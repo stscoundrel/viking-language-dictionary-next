@@ -15,7 +15,7 @@ export default function Footer({ letters }: FooterProps) {
 
         <ContentArea>
           <h2>About</h2>
-          <p>`&quot;<em>Viking Language`</em>&quot; is a book series by
+          <p><em>`Viking Language`</em> is a book series by
           <ExternalLink
             title="Jesse L. Byock"
             href="http://www.viking.ucla.edu/"
