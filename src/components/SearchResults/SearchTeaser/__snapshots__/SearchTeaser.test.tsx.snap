@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search teaser component Matches snapshot 1`] = `
+<div
+  className="result"
+>
+  <a
+    className="link"
+    href="/word/thess"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onTouchStart={[Function]}
+  >
+    þess
+  </a>
+  <ul>
+    <li
+      className="foundIn"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "In headword",
+        }
+      }
+    />
+  </ul>
+</div>
+`;

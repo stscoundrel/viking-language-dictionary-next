@@ -95,7 +95,7 @@ export default function Footer({ letters }: FooterProps) {
               <li>
                 <ExternalLink
                   title="Dictionary of the Old Norwegian Language"
-                  href="https://old-norwegian-dictionary.vercel.app/"
+                  href="https://viking-language-dictionary.vercel.app/"
                 />
               </li>
               <li>

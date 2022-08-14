@@ -38,7 +38,7 @@ export default function Head({ type, content, letter = null }: HeadProps) {
         />
         <meta
           property='og:site_name'
-          content='Old Norwegian Dictionary'
+          content='Viking Language Dictionary'
         />
         <meta
             property='og:url'
