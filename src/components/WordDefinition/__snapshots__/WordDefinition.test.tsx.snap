@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WordDefinition component Matches snapshot 1`] = `
+<article
+  className="section"
+>
+  <header>
+    <h1
+      lang="non"
+    >
+      Þiðrandi
+    </h1>
+    <small
+      className="subHeading"
+    >
+      Viking Language Dictionary - 
+      þiðrandi
+    </small>
+    <p>
+      Meaning of Old Norse / Old Icelandic word 
+      <em>
+        "
+        Þiðrandi
+        "
+      </em>
+    </p>
+  </header>
+  <dl
+    className="definitionList"
+  >
+    <dt>
+      <strong>
+        Þiðrandi
+      </strong>
+    </dt>
+    <dd
+      className="itemDescription"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "m Thidrandi (personal name)",
+        }
+      }
+      lang="nor"
+    />
+  </dl>
+  <p>
+    Possible runic inscriptions in 
+    <em>
+      Younger Futhark:
+    </em>
+  </p>
+  <ul>
+    <li>
+      - Long branch (Danish):
+      <span
+        className="rune"
+      >
+        ᚦᛁᚦᚱᛅᚾᛏᛁ
+      </span>
+    </li>
+    <li>
+      - Short twig (Swedish & Norwegian):
+      <span
+        className="rune"
+      >
+        ᚦᛁᚦᚱᛆᚿᛐᛁ
+      </span>
+    </li>
+  </ul>
+  <div
+    className="abbreviations"
+  >
+    <div
+      className="column"
+    >
+      <h4>
+        Abbreviations used:
+      </h4>
+      <dl
+        className="wrap"
+      >
+        <dt
+          className="abbreviation"
+        >
+          <strong>
+            n.
+          </strong>
+        </dt>
+        <dd
+          className="explanation"
+        >
+          Neutrum.
+        </dd>
+      </dl>
+      <dl
+        className="wrap"
+      >
+        <dt
+          className="abbreviation"
+        >
+          <strong>
+            s.
+          </strong>
+        </dt>
+        <dd
+          className="explanation"
+        >
+          substantiv.
+        </dd>
+      </dl>
+    </div>
+  </div>
+</article>
+`;

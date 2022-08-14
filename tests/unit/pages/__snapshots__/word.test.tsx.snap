@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Index page Matches snapshot 1`] = `
+exports[`Word page: render & usage Matches snapshot 1`] = `
 Array [
   <header>
     <div
@@ -613,10 +613,28 @@ Array [
         >
           Viking Language Dictionary
         </a>
+        <a
+          className="link"
+          href="/letter/th"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onTouchStart={[Function]}
+        >
+          Letter Þ
+        </a>
+        <a
+          className="link"
+          href="/word/thralyndi"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onTouchStart={[Function]}
+        >
+          Þrályndi
+        </a>
         <script
           dangerouslySetInnerHTML={
             Object {
-              "__html": "{\\"@context\\":\\"https://schema.org/\\",\\"@type\\":\\"BreadcrumbList\\",\\"itemListElement\\":[{\\"@type\\":\\"ListItem\\",\\"position\\":1,\\"name\\":\\"Viking Language Dictionary\\",\\"item\\":\\"undefined/\\"}]}",
+              "__html": "{\\"@context\\":\\"https://schema.org/\\",\\"@type\\":\\"BreadcrumbList\\",\\"itemListElement\\":[{\\"@type\\":\\"ListItem\\",\\"position\\":1,\\"name\\":\\"Viking Language Dictionary\\",\\"item\\":\\"undefined/\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":2,\\"name\\":\\"Letter Þ\\",\\"item\\":\\"undefined/letter/th\\"},{\\"@type\\":\\"ListItem\\",\\"position\\":3,\\"name\\":\\"Þrályndi\\",\\"item\\":\\"undefined/word/thralyndi\\"}]}",
             }
           }
           type="application/ld+json"
@@ -627,73 +645,138 @@ Array [
   <main
     className="container"
   >
-    <section
+    <article
       className="section"
     >
-      <h1
-        className="h2"
+      <header>
+        <h1
+          lang="non"
+        >
+          Þrályndi
+        </h1>
+        <small
+          className="subHeading"
+        >
+          Viking Language Dictionary - 
+          þrályndi
+        </small>
+        <p>
+          Meaning of Old Norse / Old Icelandic word 
+          <em>
+            "
+            þrályndi
+            "
+          </em>
+        </p>
+      </header>
+      <dl
+        className="definitionList"
       >
-        Viking Language dictionary
-      </h1>
+        <dt>
+          <strong>
+            þrályndi
+          </strong>
+        </dt>
+        <dd
+          className="itemDescription"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "þrályndi, n. d. s.; hélt honum aptr fornsiðvenja ok mykyt þrályndi Bar<abbr title=\\"Linje.\\">L.</abbr> 12524;Fgrd<abbr title=\\"Linje.\\">L.</abbr> 5816.",
+            }
+          }
+          lang="nor"
+        />
+      </dl>
       <p>
-        Online dictionary for most common Old Norse / Old Icelandic words. To accompany "Viking Language" study book.
-      </p>
-      <p>
-        The dictionary contains over 2000 translations from Old Norse to English. While it will not cover all words in Sagas, it should contain definitions of most common Old Norse words.
-      </p>
-      <p>
-        Data in this dictionary is based on data made openly available by the publisher.
-      </p>
-      <a
-        className="button"
-        href="/search"
-        onClick={[Function]}
-        onMouseEnter={[Function]}
-        onTouchStart={[Function]}
-      >
-        Search the dictionary
-      </a>
-      <br />
-      <br />
-      <h2>
-        Other dictionaries
-      </h2>
-      <p>
-        There are much larger and more complete dictionaries covering sagas and other Old Norse text.
-      </p>
-      <p>
-        Cleasby / Vigfusson dictionary is one of the largest sources, but many prefer "A Concise Dictionary of Old Icelandic", which is an easier-to-read version of the Cleasby / Vigfusson book.
+        Possible runic inscriptions in 
+        <em>
+          Younger Futhark:
+        </em>
       </p>
       <ul>
         <li>
-          <a
-            href="https://cleasby-vigfusson-dictionary.vercel.app/"
-            rel="noopener noreferrer"
-            target="_blank"
+          - Long branch (Danish):
+          <span
+            className="rune"
           >
-            Cleasby and Vigfusson Old Norse Dictionary
-          </a>
+            ᚦᚱᛅᛚᚢᚾᛏᛁ
+          </span>
         </li>
         <li>
-          <a
-            href="https://old-icelandic.vercel.app/"
-            rel="noopener noreferrer"
-            target="_blank"
+          - Short twig (Swedish & Norwegian):
+          <span
+            className="rune"
           >
-            A Concise Dictionary of Old Icelandic
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://old-norwegian-dictionary.vercel.app/"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Dictionary of the Old Norwegian Language
-          </a>
+            ᚦᚱᛆᛚᚢᚿᛐᛁ
+          </span>
         </li>
       </ul>
-    </section>
+      <div
+        className="abbreviations"
+      >
+        <div
+          className="column"
+        >
+          <h4>
+            Abbreviations used:
+          </h4>
+          <dl
+            className="wrap"
+          >
+            <dt
+              className="abbreviation"
+            >
+              <strong>
+                f.
+              </strong>
+            </dt>
+            <dd
+              className="explanation"
+            >
+              Feminin.
+            </dd>
+          </dl>
+          <dl
+            className="wrap"
+          >
+            <dt
+              className="abbreviation"
+            >
+              <strong>
+                L.
+              </strong>
+            </dt>
+            <dd
+              className="explanation"
+            >
+              Linje.
+            </dd>
+          </dl>
+          <dl
+            className="wrap"
+          >
+            <dt
+              className="abbreviation"
+            >
+              <strong>
+                m.
+              </strong>
+            </dt>
+            <dd
+              className="explanation"
+            >
+              Masculin.
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </article>
+    <a
+      className="button"
+      onClick={[Function]}
+    >
+      Back
+    </a>
     <div
       aria-label="Back to top"
       className="backToTop"
