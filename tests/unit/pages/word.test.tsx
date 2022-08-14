@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom/client'
-import Word, { getStaticProps, getStaticPaths } from 'pages/word/[word]'
+import Word, { getStaticProps } from 'pages/word/[word]'
 import renderer from 'react-test-renderer'
 import { getAlphabet } from 'lib/services/dictionary'
 

@@ -134,7 +134,7 @@ exports[`Footer component Matches snapshot 1`] = `
           </li>
           <li>
             <a
-              href="https://old-norwegian-dictionary.vercel.app/"
+              href="https://viking-language-dictionary.vercel.app/"
               rel="noopener noreferrer"
               target="_blank"
             >

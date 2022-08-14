@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResults component Matches snapshot 1`] = `
+Array [
+  <p
+    className="blue"
+  >
+    7
+     results found
+  </p>,
+  <ul
+    className="list"
+  >
+    <li>
+      <div
+        className="result"
+      >
+        <a
+          className="link"
+          href="/word/thess"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onTouchStart={[Function]}
+        >
+          þess
+        </a>
+        <ul>
+          <li
+            className="foundIn"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "In headword",
+              }
+            }
+          />
+        </ul>
+      </div>
+    </li>
+    <li>
+      <div
+        className="result"
+      >
+        <a
+          className="link"
+          href="/word/thessi"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onTouchStart={[Function]}
+        >
+          þessi
+        </a>
+        <ul>
+          <li
+            className="foundIn"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "In headword",
+              }
+            }
+          />
+        </ul>
+      </div>
+    </li>
+    <li>
+      <div
+        className="result"
+      >
+        <a
+          className="link"
+          href="/word/thetta"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onTouchStart={[Function]}
+        >
+          þetta
+        </a>
+        <ul>
+          <li
+            className="foundIn"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "In headword",
+              }
+            }
+          />
+        </ul>
+      </div>
+    </li>
+    <li>
+      <div
+        className="result"
+      >
+        <a
+          className="link"
+          href="/word/ther"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onTouchStart={[Function]}
+        >
+          þér
+        </a>
+        <ul>
+          <li
+            className="foundIn"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "In headword",
+              }
+            }
+          />
+        </ul>
+      </div>
+    </li>
+    <li>
+      <div
+        className="result"
+      >
+        <a
+          className="link"
+          href="/word/thidrandi"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onTouchStart={[Function]}
+        >
+          þiðrandi
+        </a>
+        <ul>
+          <li
+            className="foundIn"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "In headword",
+              }
+            }
+          />
+        </ul>
+      </div>
+    </li>
+    <li>
+      <div
+        className="result"
+      >
+        <a
+          className="link"
+          href="/word/thiggja"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onTouchStart={[Function]}
+        >
+          þiggja
+        </a>
+        <ul>
+          <li
+            className="foundIn"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "In headword",
+              }
+            }
+          />
+        </ul>
+      </div>
+    </li>
+    <li>
+      <div
+        className="result"
+      >
+        <a
+          className="link"
+          href="/word/thinglogi"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onTouchStart={[Function]}
+        >
+          þinglogi
+        </a>
+        <ul>
+          <li
+            className="foundIn"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "In headword",
+              }
+            }
+          />
+        </ul>
+      </div>
+    </li>
+  </ul>,
+]
+`;
