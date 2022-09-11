@@ -12,7 +12,7 @@ export default function LetterHeader({ letter, count }: LetterHeaderProps) {
     <small className={styles.subHeading}>
       Viking Language Dictionary - Letter {letter.toUpperCase()}
     </small>
-    <p>Old Norse words starting with letter {letter.toUpperCase()}.
+    <p>Common Old Norse words starting with letter {letter.toUpperCase()}.
     Click individual words to see definition.</p>
     <small className={styles.count}>Total of {count} words</small>
   </header>

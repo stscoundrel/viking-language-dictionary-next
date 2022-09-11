@@ -27,12 +27,18 @@ export default function Index({ letters }: IndexProps) {
     <Layout letters={letters} type={ContentType.Page} content={null} letter={null} noSearch={false}>
       <ContentArea>
         <h1 className="h2">Viking Language dictionary</h1>
-        <p>Online dictionary for most common Old Norse / Old Icelandic words.
-          To accompany &quot;Viking Language&quot; study book.</p>
+        <p>Compact dictionary of Old Norse.</p>
+        <p>
+          This online dictionary includes translations for most common
+          Old Norse / Old Icelandic words.
+          To accompany &quot;Viking Language&quot; study book, for those getting started
+          with Old Norse vocabulary.
+        </p>
 
         <p>The dictionary contains over 2000 translations
           from Old Norse to English. While it will not cover all words in Sagas,
-          it should contain definitions of most common Old Norse words.
+          it should contain definitions of most common Old Norse words. It is meant to be
+          unofficial helper dictionary for &quot;Viking Language&quot; study book by Jesse L. Byock.
         </p>
 
         <p>Data in this dictionary is based on data made openly available by the publisher.</p>
@@ -44,7 +50,14 @@ export default function Index({ letters }: IndexProps) {
         <br />
         <br />
 
-        <h2>Other dictionaries</h2>
+        <ContentArea>
+          <h2 className="h3">What is Old Norse?</h2>
+          <p>Old Norse is a dead language, that was the father of modern languages
+          like Icelandic, Swedish, Norwegian, Danish, Faroese and Elfdalian.
+          Popularly known as the language that vikings spoke.</p>
+        </ContentArea>
+
+        <h2 className="h3">Other dictionaries</h2>
         <p>There are much larger and more complete dictionaries
           covering sagas and other Old Norse text.</p>
 
