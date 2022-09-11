@@ -4,6 +4,8 @@ A compact Old Norse dictionary made in Next.js. Based on vocabulary of "Viking L
 
 The dictionary contains Over 2800 Old Norse words with English translations.
 
+See the live site [here](https://viking-language-dictionary.vercel.app)
+
 
 ## Other related dictionary projects
 - [A Concise Dictionary of Old Icelandic](https://github.com/stscoundrel/old-icelandic-zoega-next)
