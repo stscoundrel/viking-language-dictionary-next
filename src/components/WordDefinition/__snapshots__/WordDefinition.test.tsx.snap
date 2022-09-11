@@ -36,7 +36,7 @@ exports[`WordDefinition component Matches snapshot 1`] = `
     <dd
       className="itemDescription"
       dangerouslySetInnerHTML={
-        Object {
+        {
           "__html": "m Thidrandi (personal name)",
         }
       }
