@@ -636,10 +636,13 @@ Array [
         Viking Language dictionary
       </h1>
       <p>
-        Online dictionary for most common Old Norse / Old Icelandic words. To accompany "Viking Language" study book.
+        Compact dictionary of Old Norse.
       </p>
       <p>
-        The dictionary contains over 2000 translations from Old Norse to English. While it will not cover all words in Sagas, it should contain definitions of most common Old Norse words.
+        This online dictionary includes translations for most common Old Norse / Old Icelandic words. To accompany "Viking Language" study book, for those getting started with Old Norse vocabulary.
+      </p>
+      <p>
+        The dictionary contains over 2000 translations from Old Norse to English. While it will not cover all words in Sagas, it should contain definitions of most common Old Norse words. It is meant to be unofficial helper dictionary for "Viking Language" study book by Jesse L. Byock.
       </p>
       <p>
         Data in this dictionary is based on data made openly available by the publisher.
@@ -655,7 +658,21 @@ Array [
       </a>
       <br />
       <br />
-      <h2>
+      <section
+        className="section"
+      >
+        <h2
+          className="h3"
+        >
+          What is Old Norse?
+        </h2>
+        <p>
+          Old Norse is a dead language, that was the father of modern languages like Icelandic, Swedish, Norwegian, Danish, Faroese and Elfdalian. Popularly known as the language that vikings spoke.
+        </p>
+      </section>
+      <h2
+        className="h3"
+      >
         Other dictionaries
       </h2>
       <p>
