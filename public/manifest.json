@@ -1,8 +1,8 @@
 {
-  "name": "Project name",
-  "short_name": "Project short name",
+  "name": "Viking Language Dictionary",
+  "short_name": "VikingLanguage",
   "theme_color": "#ffffff",
-  "background_color": "#3b4f68",
+  "background_color": "#11494D",
   "display": "fullscreen",
   "orientation": "portrait",
   "scope": "/",
