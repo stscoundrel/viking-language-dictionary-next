@@ -38,7 +38,7 @@
     "teljari": "^1.1.1",
     "viking-language-dictionary": "^0.10.1",
     "viking-language-dictionary-abbreviations": "^0.9.1",
-    "younger-futhark": "^1.2.3"
+    "younger-futhark": "^1.2.4"
   },
   "devDependencies": {
     "@types/jest": "^29.0.0",
